@@ -8,7 +8,7 @@ def add_and_subtract(start, add, subtract):
 
 # Main program
 def main():
-    print("-----Calculating Exponents----")
+    print("-----Calculating Exponents----\n")
     
     base = int(input("Enter an integer as the base value: "))
     exponent = int(input("Enter an integer as the exponent: "))
@@ -16,7 +16,7 @@ def main():
     result = calculate_exponent(base, exponent)
     print(f"\n{base} raised to the power of {exponent} is {result} !!")
     
-    print("\n-----Addition and Subtraction----")
+    print("\n-----Addition and Subtraction----\n")
     
     start = int(input("Enter a starting integer: "))
     add = int(input("Enter an integer to add: "))
